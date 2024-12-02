@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body { 
+    background-color: black;
+    color: white;
+    margin: 5em auto;
+    min-width: 80%;
+    max-width: 10%;
+}
+
+nav a { 
+    display: inline-block;
+    background-color: black;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: large;
+    font-family: "Sour Gummy", sans-serif;
+    color: white;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+
+}
+
+nav a:active {
+    color: white;
+    background-color:black ;
+    transform: translateY(0.6em);
+}
+
+nav a:focus {
+    background-color:white;
+}
+
+a.currentpage {
+    border: 1px solid white;
+    background-color: rgb(255, 216, 43);
+    color: black;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: 800;
+}
+
+
+p {
+    font-family: "Mulish", sans-serif;
+    line-height: 1.4em
+}
+
+
+h1 {
+    margin-top: 2em;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.h1 {
+    
+    font-size: 70px;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+h2, h3 {
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.profielen {
+    display: flex;
+    gap:2em;
+}
+.profiel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+span {
+    font-family: "Sour Gummy", sans-serif;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.flex-horizontaal {
+    display: flex;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: white;
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.snacks {
+    margin-left: 2em;
+}
+    
+
